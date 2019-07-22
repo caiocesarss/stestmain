@@ -11,4 +11,4 @@
 </p>
 [![Product Name Screen Shot][product-screenshot]]
 
-[product-screenshot]: https://raw.githubusercontent.com/caiocesarss/stestmain/home-screenshot.jpg
+[product-screenshot]: home-screenshot.jpg
