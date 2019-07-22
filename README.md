@@ -16,20 +16,22 @@ O teste possui 3 partes:
 <ul>
 <li>Backend - Node JS (Express, Knex)</li>
 <li>Frontend - React JS (Material UI, Redux)</li>
-<li>DB Mysql</li>
+<li>DB Mysql (dump sql incluso)</li>
 </ul>
 <br />
-Foi desenvolvido para ser executado em Docker, usando docker-compose.
+Foi desenvolvido para ser executado em Docker, usando docker-compose. 
 </p>
 <h3>
 Instruções para build:
 </h3>
 <p>
 No diretório raiz, executar o comando:
-```docker-compose up```
+```
+docker-compose up
+```
 O build irá iniciar. Aguardar a conclusão (em torno de 5-10 min). A imagem abaixo mostra os comandos finais indicando que a aplicação foi iniciada.
 <br />
-<img src="finich-build-screenshot.jpg" />
+<img src="finish-build-screenshot.jpg" />
 </p>
 <p>
 O app posui um menu lateral, onde deve ser escolhido a opção "pessoas". 
