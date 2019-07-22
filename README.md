@@ -26,9 +26,11 @@ Instruções para build:
 </h3>
 <p>
 No diretório raiz, executar o comando:
+</p>
 ```sh
 docker-compose up
 ```
+<p>
 O build irá iniciar. Aguardar a conclusão (em torno de 5-10 min). A imagem abaixo mostra os comandos finais indicando que a aplicação foi iniciada.
 <br />
 <img src="finish-build-screenshot.jpg" />
