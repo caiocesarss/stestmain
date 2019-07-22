@@ -25,9 +25,9 @@ Instruções para build:
 <p>
 No diretório raiz, executar o comando:
 </p>
-```
+<code>
 docker-compose up
-```
+</code>
 <p>
 O build irá iniciar. Aguardar a conclusão (em torno de 5-10 min). A imagem abaixo mostra os comandos finais indicando que a aplicação foi iniciada.
 <br />
