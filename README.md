@@ -37,7 +37,7 @@ O build irá iniciar. Aguardar a conclusão (em torno de 5-10 min). A imagem aba
 <p>
 O app posui um menu lateral, onde deve ser escolhido a opção "pessoas". 
 </p>
-<h4>Requisitos solicitados no teste, conform e-mail:</h4>
+<h4>Requisitos solicitados no teste, conforme e-mail:</h4>
 <p>
 Criar um CRUD que mantenha o cadastro de uma Pessoa Fisica com os campos: <br />
 Id (auto incremento)<br />
