@@ -14,9 +14,9 @@
 <p>
 O teste possui 3 partes:
 <ul>
-<li>Backend - Node JS (Express, Knex)</li>
-<li>Frontend - React JS (Material UI, Redux)</li>
-<li>DB Mysql (dump sql incluso)</li>
+<li><a href="https://github.com/caiocesarss/stestbackend">Backend - Node JS (Express, Knex)</a></li>
+<li><a href="https://github.com/caiocesarss/stestfrontend">Frontend - React JS (Material UI, Redux)</a></li>
+<li><a href="https://github.com/caiocesarss/stestmain/tree/master/db">DB Mysql (dump sql incluso)</a></li>
 </ul>
 <br />
 Foi desenvolvido para ser executado em Docker, usando docker-compose. 
@@ -26,7 +26,7 @@ Instruções para build:
 </h3>
 <p>
 No diretório raiz, executar o comando:
-```
+```sh
 docker-compose up
 ```
 O build irá iniciar. Aguardar a conclusão (em torno de 5-10 min). A imagem abaixo mostra os comandos finais indicando que a aplicação foi iniciada.
