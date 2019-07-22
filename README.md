@@ -9,8 +9,4 @@
 
   <h3 align="center">Teste Samaia IT</h3>
 </p>
-[![Product Name Screen Shot][product-screenshot]]
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[product-screenshot]: home-screenshot.jpg
+<img src="home-screenshot.jpg"/>
