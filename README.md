@@ -1,5 +1,3 @@
-[![LinkedIn][linkedin-shield]][
-
 <p align="center">
   <h2 align="center">Teste Samaia IT</h2>
 </p>
@@ -27,7 +25,7 @@ Instruções para build:
 <p>
 No diretório raiz, executar o comando:
 </p>
-```sh
+```
 docker-compose up
 ```
 <p>
