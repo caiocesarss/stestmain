@@ -1,43 +1,38 @@
 version: "3.6"
 
 services:
-  backend:
+  backend-prd:
     build: 
       context: ./backend
-      dockerfile: Dockerfile-dev
+      dockerfile: Dockerfile-prd
     volumes:
       - './backend:/usr/src/app'
       - '/usr/src/app/node_modules'
     environment:
-      - NODE_ENV=development
+      - NODE_ENV=production
       - CHOKIDAR_USEPOLLING=true
     depends_on: 
       - mysql
   
-  frontend:
+  frontend-prd:
     build:
       context: ./frontend
-      dockerfile: Dockerfile-dev
-    volumes: 
-      - './frontend:/usr/src/app'
-      - '/usr/src/app/node_modules'
+      dockerfile: Dockerfile-prd
     environment:
-      - NODE_ENV=development
-      - CHOKIDAR_USEPOLLING=true
-      - REACT_APP_API_URL=${REACT_APP_API_URL}
+      - NODE_ENV=production
     depends_on:
-      - backend
+      - backend-prd
 
-  nginx:
+  nginx-prd:
     restart: always
     build: 
       context: ./nginx
-      dockerfile: Dockerfile-dev
+      dockerfile: Dockerfile-prd
     ports:
       - 80:80
     depends_on:
-      - backend
-      - frontend
+      - backend-prd
+      - frontend-prd
   
   mysql:
     build:

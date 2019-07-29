@@ -26,7 +26,7 @@ Instruções para build:
 No diretório raiz, executar o comando:
 </p>
 <code>
-docker-compose up
+docker-compose -f docker-compose-prod.yml up
 </code>
 <br />
 <p>
